@@ -1,0 +1,19 @@
+﻿<windows:PrismUnityApplication
+    xmlns:windows="using:Prism.Unity.Windows"
+    x:Class="SCommerce.Main.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SCommerce.Main">
+
+    <!--Todo o trecho abaixo foi adicionado manualmente, quando inicio-se a adoção de estilos e temas-->
+    <windows:PrismUnityApplication.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Light" Source="Themes/LightColorPalette.xaml" />
+                <ResourceDictionary x:Key="Dark" Source="Themes/DarkColorPalette.xaml" />
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </windows:PrismUnityApplication.Resources>
+    <!--FIM Resources-->
+    
+</windows:PrismUnityApplication>

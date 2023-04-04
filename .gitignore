@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/SCommerce/.vs/SCommerce/v16
+/SCommerce/SCommerce.Main/obj
+/SCommerce/SCommerce.Main/bin/x86/Debug
